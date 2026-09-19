@@ -1,6 +1,7 @@
 /**
  * Kur'an Coğrafyası - Map Module (Leaflet.js Engine)
  * Handles layers, custom SVG certainty pins, route polylines, numbered markers and camera animations.
+ * Features automated ResizeObserver to stay in sync with viewport changes.
  */
 
 export class QuranMap {
@@ -62,6 +63,22 @@ export class QuranMap {
     // Marker & Route Groups
     this.markersGroup = L.layerGroup().addTo(this.map);
     this.routeLayerGroup = L.layerGroup().addTo(this.map);
+
+    // Dynamic viewport & resize synchronizer
+    const mapElement = document.getElementById(this.containerId);
+    if (mapElement && window.ResizeObserver) {
+      const ro = new ResizeObserver(() => {
+        if (this.map) {
+          this.map.invalidateSize();
+        }
+      });
+      ro.observe(mapElement);
+    }
+    window.addEventListener('resize', () => {
+      if (this.map) {
+        this.map.invalidateSize();
+      }
+    });
   }
 
   setBaseLayer(layerName) {
