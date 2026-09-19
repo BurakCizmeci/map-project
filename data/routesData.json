@@ -1,0 +1,248 @@
+[
+  {
+    "id": "musa_route",
+    "title": {
+      "tr": "Hz. Mûsâ Kıssası Rotası",
+      "en": "Route of Prophet Moses"
+    },
+    "year": {
+      "tr": "M.Ö. ~13. Yüzyıl (Geç Tunç Çağı)",
+      "en": "c. 13th Century BCE (Late Bronze Age)"
+    },
+    "color": "#F59E0B",
+    "stops": [
+      {
+        "place_id": "misir",
+        "order": 1,
+        "note": {
+          "tr": "Doğumu ve Firavun Sarayı",
+          "en": "Birth and Pharaoh's Court"
+        }
+      },
+      {
+        "place_id": "medyen",
+        "order": 2,
+        "note": {
+          "tr": "Firavun'dan Kaçış ve 10 Yıl İkamet",
+          "en": "Exile and Refuge in Midian"
+        }
+      },
+      {
+        "place_id": "tuva",
+        "order": 3,
+        "note": {
+          "tr": "Tuvâ Mukaddes Vadisi & İlk Vahiy",
+          "en": "Sacred Valley of Tuwa & First Revelation"
+        }
+      },
+      {
+        "place_id": "tur-i-sina",
+        "order": 4,
+        "note": {
+          "tr": "Tûr Dağı & Levhaların Verilmesi",
+          "en": "Mount Sinai & The Tablets"
+        }
+      },
+      {
+        "place_id": "arzu-mukaddese",
+        "order": 5,
+        "note": {
+          "tr": "Kutsal Topraklara Giriş Emri",
+          "en": "Order to Enter the Holy Land"
+        }
+      }
+    ]
+  },
+  {
+    "id": "abyssinia_migration_route",
+    "title": {
+      "tr": "1. Hicret: Habeşistan'a Hicret (Nahl 41-42)",
+      "en": "1st Hijrah: Emigration to Abyssinia (Nahl 41-42)"
+    },
+    "year": {
+      "tr": "Miladi 615 (Bi'setin 5. Yılı / Hicret Öncesi 7)",
+      "en": "615 CE (5th Year of Prophethood / 7 BH)"
+    },
+    "color": "#EC4899",
+    "stops": [
+      {
+        "place_id": "mekke",
+        "order": 1,
+        "note": {
+          "tr": "Kureyş Zulmü ve Mekke'den Ayrılış (M. 615)",
+          "en": "Persecution in Mecca & Departure (615 CE)"
+        }
+      },
+      {
+        "place_id": "habesistan",
+        "order": 2,
+        "note": {
+          "tr": "Kızıldeniz Geçişi ve Necâşî'nin Himayesi (Aksum)",
+          "en": "Red Sea Crossing & Protection under the Negus (Aksum)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "early_islam_route",
+    "title": {
+      "tr": "Erken İslâm & Hicret Havzası",
+      "en": "Early Islam & Hijrah Basin"
+    },
+    "year": {
+      "tr": "Miladi 622 – 630 (Hicri 1 – 8)",
+      "en": "622 – 630 CE (1 – 8 AH)"
+    },
+    "color": "#10B981",
+    "stops": [
+      {
+        "place_id": "mekke",
+        "order": 1,
+        "note": {
+          "tr": "İlk Vahiy & Mescid-i Harâm (M. 610)",
+          "en": "First Revelation & Mecca (610 CE)"
+        }
+      },
+      {
+        "place_id": "medine",
+        "order": 2,
+        "note": {
+          "tr": "Medine'ye Hicret (M. 622 / Hicri 1)",
+          "en": "The Great Migration (Hijrah) to Yathrib (622 CE / 1 AH)"
+        }
+      },
+      {
+        "place_id": "bedir",
+        "order": 3,
+        "note": {
+          "tr": "Bedir Gazvesi (M. 624 / Hicri 2)",
+          "en": "Battle of Badr (624 CE / 2 AH)"
+        }
+      },
+      {
+        "place_id": "hendek-sel",
+        "order": 4,
+        "note": {
+          "tr": "Hendek Muharebesi & Sel' Dağı Savunması (M. 627 / Hicri 5)",
+          "en": "Battle of the Trench & Mount Sal' (627 CE / 5 AH)"
+        }
+      },
+      {
+        "place_id": "hudeybiye",
+        "order": 5,
+        "note": {
+          "tr": "Hudeybiye Barışı & Rıdvan Biati (M. 628 / Hicri 6)",
+          "en": "Treaty of Hudaybiyyah & Pledge of the Tree (628 CE / 6 AH)"
+        }
+      },
+      {
+        "place_id": "huneyn",
+        "order": 6,
+        "note": {
+          "tr": "Huneyn Vadisi Gazvesi (M. 630 / Hicri 8)",
+          "en": "Battle of Hunayn (630 CE / 8 AH)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hajj_pilgrimage_route",
+    "title": {
+      "tr": "Kur'an'da Hac & Kutsal Menâsik Hattı",
+      "en": "Hajj & Sacred Sanctuary Circuit"
+    },
+    "year": {
+      "tr": "Hz. İbrâhîm'den M. 632 Veda Haccı'na (Hicri 10)",
+      "en": "From Abraham to the Farewell Pilgrimage (632 CE / 10 AH)"
+    },
+    "color": "#0284C7",
+    "stops": [
+      {
+        "place_id": "mescid-i-haram",
+        "order": 1,
+        "note": {
+          "tr": "Kâbe & Tavaf (Bakara 2:125)",
+          "en": "Kaaba & Tawaf (2:125)"
+        }
+      },
+      {
+        "place_id": "makam-i-ibrahim",
+        "order": 2,
+        "note": {
+          "tr": "Makam-ı İbrahim'de Namaz (Bakara 2:125)",
+          "en": "Prayer at Station of Abraham (2:125)"
+        }
+      },
+      {
+        "place_id": "safa-merve",
+        "order": 3,
+        "note": {
+          "tr": "Safâ ile Merve Arasında Sa'y (Bakara 2:158)",
+          "en": "Sa'i between Safa and Marwah (2:158)"
+        }
+      },
+      {
+        "place_id": "mina",
+        "order": 4,
+        "note": {
+          "tr": "Minâ & Eyyâm-ı Ma'dûdât (Bakara 2:203)",
+          "en": "Mina & The Numbered Days (2:203)"
+        }
+      },
+      {
+        "place_id": "mesaril-haram",
+        "order": 5,
+        "note": {
+          "tr": "Müzdelife & el-Meş'arü'l-Harâm (Bakara 2:198)",
+          "en": "Muzdalifah & Al-Mash'ar al-Haram (2:198)"
+        }
+      },
+      {
+        "place_id": "arafat",
+        "order": 6,
+        "note": {
+          "tr": "Arafat Vakfesi & İfâza (Bakara 2:198)",
+          "en": "Standing at Arafat & Inflow (2:198)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "northern_expeditions_route",
+    "title": {
+      "tr": "Kuzey Seferleri & Tebük Hattı",
+      "en": "Northern Expeditions & Tabuk Route"
+    },
+    "year": {
+      "tr": "Miladi 630 (Hicri 9, Receb ayı)",
+      "en": "630 CE (9 AH, Rajab)"
+    },
+    "color": "#8B5CF6",
+    "stops": [
+      {
+        "place_id": "medine",
+        "order": 1,
+        "note": {
+          "tr": "Medine'den Hareket & Hazırlık (Tevbe 9:117)",
+          "en": "Departure from Medina & Preparation (9:117)"
+        }
+      },
+      {
+        "place_id": "hicr",
+        "order": 2,
+        "note": {
+          "tr": "Semûd Diyarı el-Hicr (Medâin Sâlih) Güzergâhı",
+          "en": "Passage through Al-Hijr (Hegra / Thamud)"
+        }
+      },
+      {
+        "place_id": "tebuk",
+        "order": 3,
+        "note": {
+          "tr": "Saatü'l-Usre & Tebük Karargâhı (Tevbe 9:117)",
+          "en": "The Hour of Difficulty & Tabuk Camp (9:117)"
+        }
+      }
+    ]
+  }
+]
