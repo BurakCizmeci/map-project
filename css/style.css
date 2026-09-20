@@ -126,6 +126,7 @@ body {
   line-height: 1.15;
   background: linear-gradient(135deg, #ffffff 40%, #cbd5e1);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
